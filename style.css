@@ -1,0 +1,201 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-color: rgb(239, 85, 93);
+}
+
+.header
+{
+	color: white;
+	font-family: 'Yeon Sung';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background-color: white;
+	float: none;
+	border-width: 2px;
+	border-style:solid;
+	border-radius: 15px;
+}
+
+.logo
+{
+	width: 90px;
+    height: 90px;
+	margin-top: 30px;
+	border-radius: 60px;
+}
+#login_button
+{
+	width: 80%;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: 'Yeon Sung';
+	font-size: 17px;
+	border-width: 3px;
+	border-color:black;
+	border-style:double;
+}
+#room_button
+{
+	width: 10%;
+	border-radius: 10px;
+	font-size: 17px;
+	font-family: 'Yeon Sung';
+	font-size: 17px;
+	border-width: 3px;
+	border-color:rgb(42, 85, 38);
+	border-style:double;
+}
+#room_name
+{
+	cursor: pointer;
+	font-size: 15px;
+    font-family: 'Yeon Sung';
+	border-style:double;
+	border-radius: 7px;
+	border-width: 4px;
+	border-color: rgb(0, 255, 204);
+	width: 70%;
+	padding: 5px;
+}
+#logout
+{
+	font-size: 20px;
+	 float: right;
+	 border-radius: 7px;
+	 text-decoration: underline;
+}
+
+
+#output
+{
+	padding: 10px;
+	width:80%;
+	background: linear-gradient(to right top, #4ef2c1, #61f4c8, #01f7eb,  #0afdf1,  #61f4c8,  #4ef2c1);
+    border-radius: 10px;
+	color: black;
+	font-family: cursive;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed; 
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.365);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+#user_name
+{
+	border-radius: 8px;
+	border-width: 3px;
+	border-style: double;
+	border-color: rgb(170, 105, 236);
+	width: 65%;
+}
+#room_bu
+{
+	font-family: 'Yeon Sung';
+	font-size: 16px;
+	border-radius: 13px;
+}
+#trending_rooms
+{
+	font-family: 'Yeon Sung';
+	font-size: 25px;
+}
+#label_room
+{
+	font-family: 'Yeon Sung';
+	font-size: 20px;
+	color: rgb(154, 206, 42);
+}
+#h3 , #h4 , #l
+{
+	font-family: cursive;
+	color:  black;
+}
+#user_name_room
+{
+	color: aquamarine;
+}
+#logo
+{
+	width: 50px;
+    height: 50px;
+	border-radius: 20px;
+}
+#l
+{
+	font-size: 17px;
+	font-family: cursive;
+}
+#msg
+{
+	border-radius: 7px;
+	border-width: 3px;
+	border-color: #33f1ce;
+	border-style: groove;
+}
+#send
+{
+	width: 600px;
+	border-radius: 7px;
+    font-family: 'Yeon Sung';
+	font-size: 20px;
+}
+#l
+{
+	font-size: 20px;
+	font-family: italic;
+}
